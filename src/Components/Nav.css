@@ -1,0 +1,44 @@
+nav {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  padding: 20px 32px;
+}
+
+.nav__logo {
+  position: absolute;
+  left: -180px;
+  top: 50%;
+  transform: translateY(-47%);
+}
+
+.nav__logo img {
+  width: 500px;
+  height: auto;
+  object-fit: contain;
+  opacity: 0.5;
+  display: block;
+}
+
+.nav__mark {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--silver);
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.nav__links {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+}
+
+.nav__links a {
+  text-decoration: none;
+  color: inherit;
+}

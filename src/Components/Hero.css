@@ -1,0 +1,112 @@
+.hero {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero__content {
+  width: min(1200px, 84%);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 80px;
+}
+
+.hero__intro {
+  text-align: left;
+}
+
+.hero__hello,
+.hero__intro-name {
+  display: block;
+}
+
+.hero__message {
+  text-align: left;
+}
+
+.hero__intro h1 {
+  font-size: clamp(64px, 6vw, 96px);
+  line-height: 0.95;
+}
+
+.hero__name {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.hero__role {
+  font-weight: 700;
+}
+
+.hero__connect {
+  display: inline-block;
+  font-weight: 500;
+  margin-top: 24px;
+  border-bottom: 1px solid var(--silver);
+  padding-bottom: 4px;
+  transition: all 0.3s ease;
+}
+
+.hero__connect:hover {
+  border-color: var(--navy);
+  transform: translateY(-2px);
+}
+.hero__line {
+  opacity: 0;
+  transform: translateX(12px);
+  animation: revealLine 1.2s ease-out forwards;
+}
+
+@keyframes revealLine {
+  from {
+    opacity: 0;
+    transform: translateX(12px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.hero__line--1 {
+  animation-delay: 0.3s;
+}
+
+.hero__line--2 {
+  animation-delay: 1s;
+}
+
+.hero__line--3 {
+  animation-delay: 1.6s;
+}
+
+.hero__line--4 {
+  animation-delay: 2s;
+}
+
+.hero__line--5 {
+  animation-delay: 2.8s;
+}
+
+@media (max-width: 768px) {
+  .hero__content {
+    grid-template-columns: 1fr;
+    gap: 28px;
+    text-align: center;
+  }
+
+  .hero__intro,
+  .hero__message {
+    text-align: center;
+  }
+
+  .hero__intro h1 {
+    font-size: 52px;
+  }
+}

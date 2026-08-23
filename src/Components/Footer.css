@@ -1,0 +1,31 @@
+.footer {
+  padding: 40px 8%;
+}
+
+.footer__inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__brand {
+  font-family: var(--font-display);
+  font-size: 18px;
+}
+
+.footer__links {
+  display: flex;
+  gap: 24px;
+}
+
+.footer__links a {
+  font-size: 13px;
+  font-weight: 500;
+  transition: opacity 0.3s ease;
+}
+
+.footer__links a:hover {
+  opacity: 0.6;
+}

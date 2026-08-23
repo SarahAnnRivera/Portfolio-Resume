@@ -1,0 +1,13 @@
+.compass {
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+
+.compass__main {
+  fill: var(--navy);
+}
+
+.compass__inner {
+  fill: var(--sand);
+}
