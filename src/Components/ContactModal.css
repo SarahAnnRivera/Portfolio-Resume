@@ -87,3 +87,33 @@
   font-size: 28px;
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  .modal__backdrop {
+    padding: 12px;
+    align-items: flex-start;
+    overflow-y: auto;
+  }
+
+  .modal {
+    grid-template-columns: 1fr;
+    width: 100%;
+    max-width: 500px;
+    margin: 20px 0;
+    overflow: visible;
+  }
+
+  .modal__intro,
+  .modal__form {
+    padding: 28px 24px;
+  }
+
+  .modal__intro h2 {
+    font-size: 32px;
+  }
+
+  .modal__close {
+    top: 12px;
+    right: 14px;
+  }
+}
