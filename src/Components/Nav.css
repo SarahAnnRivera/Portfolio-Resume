@@ -1,10 +1,8 @@
 nav {
   position: relative;
-
   display: flex;
   align-items: center;
   justify-content: flex-end;
-
   padding: 20px 32px;
 }
 
@@ -13,6 +11,7 @@ nav {
   left: -180px;
   top: 50%;
   transform: translateY(-47%);
+   pointer-events: none;
 }
 
 .nav__logo img {
@@ -30,6 +29,7 @@ nav {
   color: var(--silver);
   font-size: 12px;
   opacity: 0.8;
+  pointer-events: none;
 }
 
 .nav__links {
