@@ -63,8 +63,12 @@ function Projects() {
                   <p>{project.description}</p>
 
                   <div className="project__links">
-                    <a href={project.live}>Live Site</a>
-                    <a href={project.github}>GitHub</a>
+                    <a href={project.live} target="_blank" rel="noopener noreferrer">
+                      Live Site
+                    </a>
+                    <a href={project.github} target="_blank" rel="noopener noreferrer">
+                      GitHub
+                    </a>
                   </div>
                 </div>
               </div>

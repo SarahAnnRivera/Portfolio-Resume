@@ -1,6 +1,9 @@
 import "./Hero.css";
+import { useState } from "react";
+import ContactModal from "./ContactModal";
 
 function Hero() {
+  const [isContactOpen, setIsContactOpen] = useState(false);
   return (
     <section className="hero">
   <div className="hero__content">
@@ -24,9 +27,14 @@ function Hero() {
       elevated design, and thoughtful functionality.
     </p>
 
-    <a href="#contact" className="hero__line hero__line--5 hero__connect">
-      Let's connect.
-    </a>
+    <button className="hero__line hero__line--5 hero__connect hero__link"
+    onClick={() => setIsContactOpen(true)}>
+  Let&apos;s connect
+</button>
+<ContactModal
+  isOpen={isContactOpen}
+  onClose={() => setIsContactOpen(false)}
+/>
   </div>
   </div>
 </section>

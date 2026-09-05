@@ -110,3 +110,12 @@
     font-size: 52px;
   }
 }
+
+.hero__link {
+  background: transparent;
+  border: none;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+}
