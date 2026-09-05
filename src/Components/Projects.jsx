@@ -1,6 +1,9 @@
 import "./Projects.css";
 import Reveal from "./Reveal";
 import Compass from "./Compass";
+import netflixImage from "../assets/netflix-clone.png";
+import youtubeImage from "../assets/youtube-clone.png";
+import summaristImage from "../assets/summarist.png";
 
 function Projects() {
   const projects = [
@@ -9,27 +12,27 @@ function Projects() {
       stack: "React • JavaScript • Firebase • REST API",
       description:
         "A responsive streaming-inspired application with authentication, search, dynamic movie details, and trailer integration.",
-      image: "/images/netflix-placeholder.jpg",
-      live: "#",
-      github: "#",
+      image: netflixImage,
+      live: "https://netflix-clone-sarahr.vercel.app/",
+      github: "https://github.com/SarahAnnRivera/Netflix-Clone.git",
     },
     {
       title: "YouTube Clone",
       stack: "React • JavaScript • REST API",
       description:
         "A media application with functional search, dynamic video rendering, embedded playback, and recommended content.",
-      image: "/images/youtube-placeholder.jpg",
-      live: "#",
-      github: "#",
+      image: youtubeImage,
+      live: "https://youtube-clone-sarahr.vercel.app/",
+      github: "https://github.com/SarahAnnRivera/Youtube-Clone.git",
     },
     {
-      title: "Featured Project",
-      stack: "Coming Soon",
+      title: "Summarist",
+      stack: "Next.js • TypeScript • Payment Integration",
       description:
-        "A third featured project will be selected after final portfolio review.",
-      image: "/images/project-placeholder.jpg",
-      live: "#",
-      github: "#",
+        "A book app with enrollment subscription and payment integration.",
+      image: summaristImage,
+      live: "https://summarist-brown.vercel.app/",
+      github: "https://github.com/SarahAnnRivera/summarist.git",
     },
   ];
 
@@ -49,7 +52,7 @@ function Projects() {
       <div className="projects__grid">
         {projects.map((project, index) => (
           <Reveal key={project.title} delay={index * 180}>
-            <article className="project__card" key={project.title}>
+            <article className="project__card">
               <div className="project__image">
                 <img src={project.image} alt={project.title} />
 

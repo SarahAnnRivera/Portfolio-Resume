@@ -33,17 +33,21 @@ function About() {
           <p className="section__eyebrow">SKILLS</p>
 
           <div className="skills__grid">
-            <span>JavaScript</span>
-            <span>React</span>
-            <span>HTML5</span>
-            <span>CSS3</span>
-            <span>Firebase</span>
-            <span>REST APIs</span>
-            <span>Axios</span>
-            <span>Git & GitHub</span>
-            <span>Vercel</span>
-            <span>Responsive Design</span>
-          </div>
+  <span>JavaScript</span>
+  <span>React</span>
+  <span>Next.js</span>
+  <span>TypeScript</span>
+  <span>HTML5</span>
+  <span>CSS3</span>
+  <span>Firebase</span>
+  <span>Firestore</span>
+  <span>Redux Toolkit</span>
+  <span>REST APIs</span>
+  <span>Axios</span>
+  <span>Git & GitHub</span>
+  <span>Vercel</span>
+  <span>Responsive Design</span>
+</div>
         </div>
         </Reveal>
       </div>

@@ -78,3 +78,13 @@
   font-size: 13px;
   opacity: 0.7;
 }
+
+@media (max-width: 768px) {
+  .about__content {
+    grid-template-columns: 1fr;
+  }
+
+  .about__skills {
+    margin-top: 2rem;
+  }
+}

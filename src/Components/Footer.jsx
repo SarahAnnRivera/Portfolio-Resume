@@ -14,9 +14,13 @@ function Footer() {
     <p className="footer__brand">SRB © 2026</p>
 
         <div className="footer__links">
-          <a href="/Sarah-Rivera-Balcazar-Resume.pdf" target="_blank">
-            Résumé
-          </a>
+           <a
+  href="/Sarah_Rivera_Resume.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Resume
+</a>
 
           <a href="https://github.com/YOURUSERNAME" target="_blank">
             GitHub

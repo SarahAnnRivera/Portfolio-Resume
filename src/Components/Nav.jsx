@@ -21,12 +21,12 @@ function Nav() {
           <a href="#projects">Projects</a>
         </li>
         <li>
-          <a
-  href="/Sarah-Rivera-Balcazar-Resume.pdf"
+    <a
+  href="/Sarah_Rivera_Resume.pdf"
   target="_blank"
   rel="noopener noreferrer"
 >
-  Résumé
+  Resume
 </a>
         </li>
       </ul>
