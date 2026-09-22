@@ -39,6 +39,7 @@ function About() {
   <span>TypeScript</span>
   <span>HTML5</span>
   <span>CSS3</span>
+  <span>Tailwind CSS</span>
   <span>Firebase</span>
   <span>Firestore</span>
   <span>Redux Toolkit</span>

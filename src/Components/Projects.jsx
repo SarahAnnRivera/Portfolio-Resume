@@ -3,10 +3,19 @@ import Reveal from "./Reveal";
 import Compass from "./Compass";
 import netflixImage from "../assets/netflix-clone.png";
 import youtubeImage from "../assets/youtube-clone.png";
-import summaristImage from "../assets/summarist.png";
+import SkintristicImage from "../assets/skintristic.png";
 
 function Projects() {
   const projects = [
+     {
+      title: "Skintristic",
+      stack: "Next.js • TypeScript • Tailwind CSS • REST API • Base64 • LocalStorage",
+      description:
+        "Developed a responsive AI-powered skin analysis experience featuring image upload and webcam capture, API-driven analysis, dynamic results, and interactive demographic insights.",
+      image: SkintristicImage,
+      live: "https://skintristic.vercel.app/",
+      github: "https://github.com/SarahAnnRivera/skintristic.git",
+    },
     {
       title: "Netflix Clone",
       stack: "React • JavaScript • Firebase • REST API",
@@ -25,15 +34,7 @@ function Projects() {
       live: "https://youtube-clone-sarahr.vercel.app/",
       github: "https://github.com/SarahAnnRivera/Youtube-Clone.git",
     },
-    {
-      title: "Summarist",
-      stack: "Next.js • TypeScript • Payment Integration",
-      description:
-        "A book app with enrollment subscription and payment integration.",
-      image: summaristImage,
-      live: "https://summarist-brown.vercel.app/",
-      github: "https://github.com/SarahAnnRivera/summarist.git",
-    },
+   
   ];
 
   return (

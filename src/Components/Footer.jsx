@@ -15,7 +15,7 @@ function Footer() {
 
         <div className="footer__links">
            <a
-  href="/Sarah_Rivera_Resume.pdf"
+  href="/SRBResumeColor.pdf"
   target="_blank"
   rel="noopener noreferrer"
 >
