@@ -2,7 +2,6 @@ import "./Projects.css";
 import Reveal from "./Reveal";
 import Compass from "./Compass";
 import netflixImage from "../assets/netflix-clone.png";
-import youtubeImage from "../assets/youtube-clone.png";
 import SkintristicImage from "../assets/skintristic.png";
 import unsealedImage from "../assets/unsealed.png";
 

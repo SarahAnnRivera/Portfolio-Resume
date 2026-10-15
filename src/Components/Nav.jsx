@@ -22,7 +22,7 @@ function Nav() {
         </li>
         <li>
     <a
-  href="/SRBResumeColor.pdf"
+  href="/Sarah_Rivera_Resume_2026.pdf"
   target="_blank"
   rel="noopener noreferrer"
 >
