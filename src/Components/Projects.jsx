@@ -4,6 +4,7 @@ import Compass from "./Compass";
 import netflixImage from "../assets/netflix-clone.png";
 import youtubeImage from "../assets/youtube-clone.png";
 import SkintristicImage from "../assets/skintristic.png";
+import unsealedImage from "../assets/unsealed.png";
 
 function Projects() {
   const projects = [
@@ -26,13 +27,13 @@ function Projects() {
       github: "https://github.com/SarahAnnRivera/Netflix-Clone.git",
     },
     {
-      title: "YouTube Clone",
-      stack: "React • JavaScript • REST API",
+      title: "Unsealed",
+      stack: "React • JavaScript • Node.js • Supabase • Stripe • Resend",
       description:
-        "A media application with functional search, dynamic video rendering, embedded playback, and recommended content.",
-      image: youtubeImage,
-      live: "https://youtube-clone-sarahr.vercel.app/",
-      github: "https://github.com/SarahAnnRivera/Youtube-Clone.git",
+        "An original digital storytelling platform featuring interactive story selection, Stripe-powered checkout, Supabase enrollment management, and automated email delivery with scheduled and binge-reading options.",
+      image: unsealedImage,
+      live: "https://un-sealed.vercel.app/",
+      github: "https://github.com/SarahAnnRivera/unsealed.git",
     },
    
   ];

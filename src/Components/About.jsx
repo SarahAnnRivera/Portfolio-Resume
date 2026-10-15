@@ -48,6 +48,8 @@ function About() {
   <span>Git & GitHub</span>
   <span>Vercel</span>
   <span>Responsive Design</span>
+  <span>Node.js</span>
+  <span>SQL</span>
 </div>
         </div>
         </Reveal>
